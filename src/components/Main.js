@@ -8,8 +8,8 @@ function Main() {
     <>
       <main>
         <Services />
-        <About />
         <Partners />
+        <About />
         <Booking />
       </main>
     </>

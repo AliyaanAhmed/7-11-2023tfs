@@ -1,11 +1,15 @@
+.container {
+  margin-top: 55px; /* Adjust the top margin as per your requirement */
+  margin-bottom: 55px; /* Adjust the bottom margin as per your requirement */
+}
 .col-sm-4 {
-  padding: 15px;
+  padding: 50px;
 }
 
 .flipy {
   -webkit-perspective: 800;
   width: 100%;
-  height: 240px;
+  height: 300px;
   position: relative;
   border: 1px solid #ccc;
 }

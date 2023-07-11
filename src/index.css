@@ -160,14 +160,14 @@ code {
   margin: 0;
   font-size: 20px;
   padding-top: 10px;
-  top: 15px;
+  top: -35px;
 }
 
 .navbar ul { 
   transition: all 0.2s;
   list-style: none;
   margin-left: 500px;
-  margin-top: 40px;
+  margin-top: 0;
   
 }
 
@@ -247,6 +247,12 @@ header h1 {
   font-size: 48px;
   color: #FFC40A;
 }
+.myservicesheading {
+  text-align: center;
+  color: #FFC40A;
+  margin-bottom: 40px;
+}
+
 .main-p {
   font-size: 22px;
   font-weight: 500;
@@ -619,7 +625,7 @@ ul li a {
   position: fixed !important;
   top: 0;
   right: 100px; /* Adjust the right value to control the button's position */
-  margin-top: 33px;
+  margin-top: 45px;
   background-color: #FFC40A;
   color: #fff;
   padding: 12px 24px;

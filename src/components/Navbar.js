@@ -81,12 +81,13 @@ function Navbar() {
             <li>
               <Link
                 activeClass="active"
-                to="services"
+                to="myservicesheading"
                 spy={true}
                 smooth={true}
                 duration={1000}
                 onClick={handleLinkClick}
                 style={{ color: navbarTextColor }}
+                offset={-200}
               >
                 Services
               </Link>

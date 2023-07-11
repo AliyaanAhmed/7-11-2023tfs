@@ -5,12 +5,9 @@
 
 .carousel-inner {
   display: flex;
-  animation: carousel-scroll 20s linear infinite;
   width: max-content;
+  animation: carousel-scroll infinite;
   animation-timing-function: linear;
-  margin: 0 auto;
-  justify-content: flex-start;
-  transform: translateX(0);
 }
 
 .carousel-item {
@@ -18,8 +15,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  animation: slide-in 20s linear infinite;
+  opacity: 1;
+  animation: slide-in 2s linear infinite;
 }
 
 .carousel-item img {
@@ -32,7 +29,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-100% * 2));
+    transform: translateX(calc(-100% * 6));
   }
 }
 
@@ -41,20 +38,16 @@
     opacity: 0;
     transform: translateX(100%);
   }
-  8.33% {
+  20% {
     opacity: 1;
     transform: translateX(0);
   }
-  16.67% {
+  80% {
     opacity: 1;
     transform: translateX(0);
-  }
-  25% {
-    opacity: 1;
-    transform: translateX(calc(-100% / 6));
   }
   100% {
-    opacity: 1;
-    transform: translateX(calc(-100% * 2));
+    opacity: 0;
+    transform: translateX(-100%);
   }
 }
